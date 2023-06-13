@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React1</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <!-- <div id="root">
+        Hello Harshada from HTML
+    </div>
+    <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML='Hello Harshada From Javascript'
+        const id = document.getElementById('root')
+        id.appendChild(heading)
+
+
+    </script> -->
+    <div id = 'root'>
+        <h1>Hey Harshada, So here react is taking control and replacing this h1 tag with app.js file's content</h1>
+    </div>
+    <h1>SO react only works inside provided tag div id root</h1>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <!-- <script>
+
+        const heading = React.createElement('h1', {}, "Hello Harshada From React")
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+
+        root.render(heading)
+
+    </script> -->
+    <script src ="./App.js" >
+    </script>
+
+</body>
+</html>
